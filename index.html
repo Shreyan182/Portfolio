@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My awesome portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+        
+
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#projects">Projects</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#contact" class="btn btn-primary">Contact</a>
+                    </div>
+                </nav>
+            </div>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/man.png" alt="">
+                    </div><br><br>
+                    <div class="right flex-1">
+                        <h1>Shreyan Sarkar</h1>
+                        <h2>Full Stack <span>Web Developer</span></h2>
+                        <br><br><br>
+                        <div>
+                            <button class="btn btn-secondary" onclick="downloadCV()">DOWNLOAD CV</button>
+                        </div>
+                        <a id="downloadLink" href="cv/my-cv.pdf" download style="display:none;">Download CV</a>
+                    
+                        <script>
+                            function downloadCV() {
+                                document.getElementById('downloadLink').click();
+                            }
+                        </script>
+                    
+                </div>
+            </div>
+        </header>
+        
+        <section class="about" id="about">
+            <div class="container flex items-center about-inner-wrap">
+                
+                <h1>About <span>Myself</span></h1>
+            </div>
+        </section>
+        
+        <div class="centered-box">
+            <p>
+                Hello! I’m Shreyan Sarkar. I'm a dynamic and motivated Full Stack Web Developer with a passion for crafting efficient, user-friendly applications that leave a lasting impact. With expertise in both front-end and back-end development, I specialize in creating seamless digital experiences from conception to execution. I thrive in collaborative environments where creativity flourishes and innovative ideas come to life. Effective communication and teamwork are at the core of my approach, and I enjoy collaborating with diverse teams to tackle challenges and deliver exceptional results. My journey as a web developer is marked by a commitment to continuous learning and growth. I embrace opportunities to explore new technologies and methodologies, ensuring that I stay ahead of industry trends and deliver cutting-edge solutions. Beyond coding, I am driven by a desire to create meaningful experiences that resonate with users and add value to their lives. As you explore my work, I invite you to discover the projects I've been a part of and the skills I've cultivated along the way. Thank you for taking the time to learn more about me, and I look forward to the opportunity to collaborate and create something extraordinary together.
+            </p>
+        </div>
+
+        <section class="Skills" id="skills">
+            <div class="container">
+                    
+                 <h1>My <span>Skills</span></h1>
+            </div>
+        </section>
+        <div class=" centered-box"
+        
+            <p>
+                As a Full Stack Web Developer, I have honed a diverse set of skills that enable me to build comprehensive and robust web applications. My technical proficiencies include:
+                <ul>
+                    <li><strong>Languages:</strong> C, C++, Python, HTML, CSS, JavaScript</li>
+                    <li><strong>Frameworks:</strong> React.js, Node.js, Express.js</li>
+                    <li><strong>Database Management:</strong> MongoDB, SQL</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Specialisation :</strong> MERN stack</li>
+                    <li><strong>Web Services :</strong> RESTful APIs</li>
+                    <li><strong>Soft Skills :</strong> Effective Communication Skills, Problem Solving, Critical thinking ability, Leadership Skill</li>
+
+                
+            </p>
+        </div>
+       
+        <section class="projects" id="projects">
+            <div class="container flex items-center about-inner-wrap">
+                
+                <h1>My <span>Projects</span></h1>
+            </div>
+        </section>
+        
+        <div class="centered-box">
+                        <div class="project-card">
+                            <div class="project-info">
+                                <h3>Epic Eats</h3>
+                                <br><br>
+                                <p>Epic Eats is a cutting-edge food delivery platform built with the MERN stack (MongoDB, Express.js, React, Node.js) that redefines convenience and quality in meal delivery. Designed to connect food lovers with an array of local restaurants, EpicEats offers a seamless ordering experience with real-time tracking, personalized recommendations, and secure payment options. The platform emphasizes speed and reliability, ensuring that users can enjoy exceptional meals delivered right to their doorstep. Whether it's a quick snack or a gourmet feast, EpicEats transforms dining into an epic adventure, all through an intuitive and user-friendly interface.</p>
+                                <br><br>
+                                <img src="./images/project1.jpg" alt="Epic Eats Project Image">
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-info">
+                                <h3>EV Xpresso</h3>
+                                <br>
+                                <p>EV Xpresso is an innovative EV charging app designed to streamline the electric vehicle charging experience by integrating convenience, efficiency, and sustainability. The app offers advanced slot booking, real-time GPS navigation to the nearest available charging stations, and real-time vacancy detection, ensuring that users can always find and reserve a spot easily. By leveraging renewable energy sources, such as solar and wind power, EV Xpresso promotes environmental sustainability and reduces reliance on non-renewable energy. With its user-friendly interface and eco-friendly focus, EV Xpresso provides a seamless, reliable, and green solution for electric vehicle owners, encouraging the adoption of EVs and contributing to a cleaner future.</p>
+                                <br><br>
+                                <img src="./images/project2.jpg" alt="EV Xpresso Project Image">
+                                <br><br>
+                            </div>
+                        </div>
+                        <!-- Add more project cards here -->
+                    </div>
+                </section>
+                <section class="contact" id="contact">
+                    <div class="container">
+                        <h1 class="section-heading">Contact <span>Me</span></h1>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="b4767398-a764-48e3-b8c8-172ab3fc0cf9">
+                            <div class="input-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name *" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email *" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="subject" name="subject" placeholder="Your Subject">
+                            </div>
+                            <div class="input-group">
+                                <textarea id="message" name="message" cols="30" rows="5" placeholder="Your Message..." required></textarea>
+                            </div>
+                            <div class="button-center">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                
+        
+        
+        <footer>
+            <div class="social">
+                <a href="https://twitter.com/ShreyanSarkar8"> <img src="./images/twitter.png" alt="Twitter"></a>
+                <a href="mailto:shreyansarkar948@gmail.com"> <img src="./images/email.png" alt="Email"></a>
+                <a href="https://github.com/Shreyan182"> <img src="./images/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/shreyan2003/"> <img src="./images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <br> <br>
+            <div class="copyright">
+                Copyright 2024 © Shreyan Sarkar
+            </div>
+        </footer>
+        
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
